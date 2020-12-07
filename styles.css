@@ -1,0 +1,88 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+@font-face{
+    src: url(fonts/NanumBrushScript-Regular.ttf);
+    font-family: NanumBrushScript-Regular;
+}
+/*
+FONTS AVAILABLE
+
+NanumBrushScript-Regular
+NanumBrushScript-Regular
+IndieFlower-Regular
+NanumBrushScript-Regular*/
+
+body {
+	font-family: NanumBrushScript-Regular, sans-serif;
+	background-color: #d1d3d4;
+	color: #034694;
+	line-height: 1.6;
+	text-transform: lowercase;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #034694;
+}
+
+h1 {
+	font-weight: 300;
+	line-height: 1.2;
+	margin: 10px 0;
+}
+
+.navbar {
+	height: 70px;
+	box-shadow: 2px 2px 2px #034694;
+}
+
+.navbar ul {
+	display: flex;
+}
+
+.navbar a {
+	padding: 10px;
+	margin: 0 5px;
+}
+
+.navbar a:hover {
+	border-bottom: 2px #034694 solid;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1100px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 0 40px;
+}
+/********************************/
+/*TESTIMONIALS*/
+/********************************/
+
+.section-testimonials {
+	background-image: linear-gradient( rgba(209, 211, 212, 0.4), rgba(209, 211, 212, 0.4)), url(image3.jpg);
+	background-size: cover;
+}
+
+.section-testimonials h2 {
+	padding: 20px 0;
+	text-align: center;
+}
+
+hr {
+	width: 70px;
+	background-color: #034694;
+	margin: 10px auto;
+
+}
