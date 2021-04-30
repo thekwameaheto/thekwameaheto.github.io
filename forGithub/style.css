@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+.header-section {
+    background-color: rgb(32, 32, 7);
+    color: azure;
+    height: 85vh;
+    text-align: center;
+}
+
+.header-section .header-section-text {
+    padding: 25px;
+}
+
+.header-section .header-section-text .text-1 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.header-section .header-section-text .text-2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #ffd700;
+}
+
+.header-section .header-section-text .text-3 {
+    font-size: 20px;
+    font-weight: 650;
+    margin-top: -10px;
+}
+
+.header-section .header-section-text .text-4 {
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.header-section .header-section-text #verify-image {
+    margin: 20px;
+}
+
+.header-section .header-section-text .review .text-review {
+    display: inline;
+    margin: 20px 10px;
+}
+
+.header-section .header-section-text .text-5 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.header-section .header-section-text .order-links .order-link {
+    text-decoration: none;
+}
+
+.header-section .header-section-text .order-links .order-link .order-text {
+    color: azure;
+    border: 5px solid  #ffd700;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 50px;
+    padding: 10px 0;
+    margin: 15px 0;
+    opacity: 0.7;
+}
+
+.header-section .header-section-text .order-links .order-link .order-text:hover {
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+/************************************* TESTIMONIALS SECTION *********************************/
+.testimonials {
+    background-color: #ffd700;
+    color: black;
+    padding: 20px;
+}
+
+.testimonials .testimonies {
+    margin: 10px;
+}
+
+.testimonials .testimonies .testimony {
+    margin-bottom: 60px;
+}
+
+.testimonials .testimonies .testimony .testimony-text {
+    border-left: 3px solid #fff;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+
+.testimonials .testimonies .testimony .author,.author-location {
+    text-align: right;
+    font-weight: 700;
+}
+
+
+
+/************************************* QUALITIES SECTION *********************************/
+.qualities {
+    background-color: rgb(57, 68, 46);
+    display: table;
+    width: 100vw;
+    padding: 3px;
+    clear: both;
+}
+
+.qualities .quality-item-1 {
+    height: 15vh;
+    width: 40vw;
+    float: left;
+    background-color: rgb(27, 27, 25);
+    padding: 10px;
+    /* margin: 5px; */
+    border-radius: 5px;
+}
+
+.qualities .quality-item-2 {
+    height: 15vh;
+    width: 40vw;
+    float: right;
+    background-color: rgb(27, 27, 25);
+    padding: 10px;
+    /* margin: 5px; */
+    border-radius: 5px;
+}
+
+.qualities .quality-item-3 {
+    height: 15vh;
+    width: 40vw;
+    float: left;
+    background-color: rgb(27, 27, 25);
+    padding: 10px;
+    /* margin: 5px; */
+    border-radius: 5px;
+}
+
+.qualities .quality-item-4 {
+    height: 15vh;
+    width: 40vw;
+    float: right;
+    background-color: rgb(27, 27, 25);
+    padding: 10px;
+    /* margin: 5px; */
+    border-radius: 5px;
+}
+
