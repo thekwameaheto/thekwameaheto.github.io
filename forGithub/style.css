@@ -5,7 +5,6 @@
 .header-section {
     background-color: rgb(32, 32, 7);
     color: azure;
-    height: 85vh;
     text-align: center;
 }
 
@@ -101,7 +100,7 @@
 
 
 /************************************* QUALITIES SECTION *********************************/
-.qualities {
+/* .qualities {
     background-color: rgb(57, 68, 46);
     display: table;
     width: 100vw;
@@ -115,7 +114,6 @@
     float: left;
     background-color: rgb(27, 27, 25);
     padding: 10px;
-    /* margin: 5px; */
     border-radius: 5px;
 }
 
@@ -125,7 +123,6 @@
     float: right;
     background-color: rgb(27, 27, 25);
     padding: 10px;
-    /* margin: 5px; */
     border-radius: 5px;
 }
 
@@ -135,7 +132,6 @@
     float: left;
     background-color: rgb(27, 27, 25);
     padding: 10px;
-    /* margin: 5px; */
     border-radius: 5px;
 }
 
@@ -145,7 +141,6 @@
     float: right;
     background-color: rgb(27, 27, 25);
     padding: 10px;
-    /* margin: 5px; */
     border-radius: 5px;
 }
-
+ */
