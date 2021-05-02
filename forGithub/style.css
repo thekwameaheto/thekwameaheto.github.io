@@ -5,6 +5,7 @@
 .header-section {
     background-color: rgb(32, 32, 7);
     color: azure;
+    height: 85vh;
     text-align: center;
 }
 
@@ -71,7 +72,7 @@
 
 /************************************* TESTIMONIALS SECTION *********************************/
 .testimonials {
-    background-color: #ffd700;
+    background-color: #aaa;
     color: black;
     padding: 20px;
 }
@@ -100,47 +101,420 @@
 
 
 /************************************* QUALITIES SECTION *********************************/
-/* .qualities {
-    background-color: rgb(57, 68, 46);
-    display: table;
-    width: 100vw;
-    padding: 3px;
-    clear: both;
+.qualities {
+    background-color: #eee;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 5px;
+
 }
 
-.qualities .quality-item-1 {
-    height: 15vh;
-    width: 40vw;
-    float: left;
-    background-color: rgb(27, 27, 25);
+.qualities .quality {
+    margin: 5px;
     padding: 10px;
-    border-radius: 5px;
+    background-color: #ccc;
+    border-radius: 10px;
 }
 
-.qualities .quality-item-2 {
-    height: 15vh;
-    width: 40vw;
-    float: right;
-    background-color: rgb(27, 27, 25);
-    padding: 10px;
-    border-radius: 5px;
+
+/************************************* BENEFITS SECTION *********************************/
+.benefits {
+    background-color: #bbb;
 }
 
-.qualities .quality-item-3 {
-    height: 15vh;
-    width: 40vw;
-    float: left;
-    background-color: rgb(27, 27, 25);
-    padding: 10px;
-    border-radius: 5px;
+.benefits .benefits-title .text-1 {
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
 }
 
-.qualities .quality-item-4 {
-    height: 15vh;
-    width: 40vw;
-    float: right;
-    background-color: rgb(27, 27, 25);
-    padding: 10px;
-    border-radius: 5px;
+.benefits .benefits-title .text-2 {
+    color: black;
+    font-size: 20px;
+    font-weight: 350;
+    text-align: center;
 }
- */
+
+
+.benefits .benefits-texts {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 40px;
+    grid-auto-rows: minmax(100px, auto);
+    text-align: center;
+    padding: 20px;
+}
+
+.benefits .benefits-texts .benefits-text {
+    background-color: azure;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.benefits .benefits-texts .benefits-text .text-1 {
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.benefits .benefits-texts .benefits-text .text-2 {
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+/************************************* CONFESSIONS SECTION *********************************/
+.confessions {
+    text-align: center;
+    /* background-color: #ccc; */
+    color: black;
+    padding: 30px 0;
+}
+
+.confessions .confessions-title {
+    margin: 50px 0;
+}
+
+.confessions .confessions-title .text {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.confessions .confessions-title .text span {
+    color: #ffd700;
+}
+
+.confessions .confession-items {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+
+}
+
+.confessions .confession-items .confession-item {
+    /* color: chocolate; */
+    padding: 20px;
+}
+
+.confessions .confession-items .confession-item p{
+    font-size: 15px;
+}
+
+.confessions .confession-items .confession-item img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.confessions .confession-items .confession-item i {
+    color: #ffd700;
+    margin: 15px 5px;
+}
+
+.confessions .confession-items .confession-item .text-2{
+    font-weight: bold;
+}
+
+/************************************* PRODUCTS SECTION *********************************/
+.products {
+    background-color: #aaa;
+}
+
+.products .product-title .text {
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    padding: 30px;
+}
+
+.products .product-title .text span{
+    color: #ffd700;    
+}
+
+.products .product-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    grid-auto-rows: minmax(70px, auto);
+    padding: 10px;
+}
+
+.products .product-items .product-item {
+    background-color: #ffd700;
+    border-radius: 20px;
+    padding: auto;
+    text-align: center;   
+}
+
+.products .product-items .product-item .text {
+    margin: 30px auto;
+    font-size: 18px;
+    font-weight: bold;   
+}
+
+.products .product-items .last {
+    grid-column: 1/3;
+}
+
+.products .more-text .text {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+.products .product-group {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.products .product-group .product-group-item {
+    background-color: #ccc;
+    margin: 25px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.products .product-group .product-group-item .title {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+}
+
+.products .product-group .product-group-item .text {
+    display: inline;
+    margin-left: 5px;
+    line-height: 25px;
+}
+
+/* .products .product-group .product-group-item */
+.products .product-group .product-group-item a {
+    text-decoration: none;
+}
+
+.products .product-group .product-group-item a p {
+    background-color: rgb(32, 32, 7);
+    color: azure;
+    border: 5px solid  #ffd700;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 50px;
+    padding: 10px 0;
+    margin: 15px 0;
+    opacity: 0.7;
+}
+
+.products .product-group .product-group-item a p:hover {
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+/* RANDOM-TESTIMONY SECTION */
+
+.random-testimony {
+    background-color: #ffd700;
+    color: black;
+    padding: 20px;   
+}
+
+.random-testimony .testimony {
+    margin: 10px;
+}
+
+.random-testimony .testimony .testimony-text {
+    border-left: 3px solid #fff;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.random-testimony .testimony .author,.author-location {
+    text-align: right;
+    font-weight: 700;
+}
+
+/* SKIN-TYPE SECTION */
+
+.skin-type .skin-type-title .title {
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    padding: 30px;
+}
+
+.skin-type .skin-type-title .title span {
+    color: #ffd700;
+}
+
+.skin-type .skin-type-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    grid-auto-rows: minmax(70px, auto);
+    padding: 10px;
+}
+
+.skin-type .skin-type-items .skin-type-item {
+    background-color: #ffd700;
+    border-radius: 20px;
+    padding: auto;
+    text-align: center;
+}
+
+.skin-type .skin-type-items .skin-type-item .skin-type-text {
+    margin: 30px auto;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.skin-type .skin-type-items .last {
+    grid-column: 1/3;
+}
+
+/* MORE RANDOM CONFESSIONS SECTION */
+.more-random-confession {
+    text-align: center;
+    color: black;
+    padding: 30px 0; 
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+}
+
+.more-random-confession .confession {
+    padding: 20px;
+}
+
+.more-random-confession .confession .text {
+    font-size: 15px;
+}
+
+.more-random-confession .confession i {
+    color: #ffd700;
+    margin: 15px 5px;
+}
+
+.more-random-confession .confession .text-2 {
+    font-weight: bold;
+}
+
+/* QUALITY SECTION  */
+
+.quality .quality-title .title {
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    padding: 30px;
+}
+
+.quality .quality-title .title span {
+    color: #ffd700;
+}
+
+.quality .quality-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    grid-auto-rows: minmax(70px, auto);
+    padding: 10px;
+}
+
+.quality .quality-items .quality-item {
+    background-color: #ffd700;
+    border-radius: 20px;
+    padding: auto;
+    text-align: center;
+}
+
+.quality .quality-items .quality-item .quality-text {
+    margin: 30px auto;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* STEPS SECTION */
+.steps .steps-title .title {
+    font-weight: bolder;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+    padding: 30px;
+}
+
+.steps .steps-title .title span {
+    color: #ffd700;
+}
+
+.steps .step {
+    text-align: center;
+    color: black;
+    padding: 30px 0; 
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+}
+
+.steps .step .text {
+    font-size: 15px;
+}
+
+.steps .step .text-2 {
+    font-weight: bold;
+}
+
+/* FAQ SECTION */
+.faq .faq-title .title {
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    padding: 50px 20px 20px 20px;
+}
+
+.faq .faq-item {
+    text-align: left;
+    color: #000;
+    padding: 30px 20px; 
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;    
+}
+
+.faq .faq-item .title {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.faq .faq-item .text {
+    font-size: 15px;
+    margin-top: -25px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer p {
+    padding: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
