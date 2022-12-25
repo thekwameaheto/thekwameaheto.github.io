@@ -1,0 +1,35 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.welcome {
+  width: 90vw;
+  height: 50vh;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: beige;
+  color: crimson;
+  border-radius: 25px;
+  padding: 25px;
+  margin: 20px auto;
+}
+
+.welcome button {
+  width: 200px;
+  height: 40px;
+  border: 3px solid crimson;
+  border-radius: 50px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.welcome button:hover {
+  color: crimson;
+  background-color: beige;
+  border: 6px solid white;
+  font-weight: 600;
+  cursor: pointer;
+}
